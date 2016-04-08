@@ -25,7 +25,7 @@ LD_PRELOAD=/path/to/sigtrace.so ready y
 and stop the process with Ctrl-C.
 
 
-The tool should give an output similar to following
+By testing the tool with _segfault_ you should get an output similar to following
 
 ```
 [sigtrace] Received signal SIGSEGV (11).
