@@ -1,6 +1,8 @@
 # sigtrace
 A tool to get the backtrace of a process after receiving a specific signal.
 
+Traced signals are SIGABRT, SIGUSR1, SIGINT, SIGQUIT, SIGILL, SIGFPE, SIGSEGV, and SIGBUS.
+
 ## Build
 
 To build the library simply do
